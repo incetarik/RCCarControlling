@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_layout">
+
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/car"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image_car" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_alignStart="@+id/image_car"
+        android:layout_alignEnd="@+id/image_car"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image_bottom" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_alignStart="@+id/image_car"
+        android:layout_alignEnd="@+id/image_car"
+        app:srcCompat="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image_top" />
+    <ImageView
+        android:layout_width="3dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_car"
+        android:layout_alignBottom="@+id/image_car"
+        app:srcCompat="@color/colorPrimaryDark"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/image_left" />
+    <ImageView
+        android:layout_width="3dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_car"
+        android:layout_alignBottom="@+id/image_car"
+        app:srcCompat="@color/colorPrimaryDark"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/image_right" />
+
+</RelativeLayout>

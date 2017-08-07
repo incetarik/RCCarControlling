@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="90"
+    android:id="@+id/llInformation">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="30"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Xo="
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTouchX1"
+            android:layout_weight="1"
+            android:gravity="center" />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTouchX"
+            android:layout_weight="24" />
+
+        <TextView
+            android:id="@+id/tvTouchY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:text="=Yo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvTouchY1"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="30"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Xc="
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCircleX1"
+            android:gravity="center"
+            android:layout_weight="1" />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCircleX"
+            android:layout_weight="24" />
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCircleY"
+            android:layout_weight="4"
+            android:textAlignment="textEnd" />
+
+        <TextView
+            android:text="=Yc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCircleY1"
+            android:gravity="center"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="30"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/tvAngle1"
+            android:gravity="center"
+            android:text="ϑ = " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvAngle"
+            android:layout_weight="24" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:id="@+id/tvRadius" />
+
+        <TextView
+            android:text=" = R"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tvRadius1"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

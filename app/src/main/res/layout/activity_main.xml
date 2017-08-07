@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".CarController">
+
+    <RelativeLayout
+        android:layout_height="282dp"
+        android:background="@drawable/circle_bg"
+        android:layout_gravity="center"
+        android:id="@+id/layout_analog_control"
+        android:layout_width="282dp">
+        <include
+            layout="@layout/information_view"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+    </RelativeLayout>
+    <include
+        android:layout_width="match_parent"
+        layout="@layout/car_view"
+        android:layout_height="match_parent"
+        android:id="@+id/info"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:visibility="visible" />
+</LinearLayout>
